@@ -1,0 +1,470 @@
+/* Barra de navegación */
+
+.navbar{
+    padding: 1rem;
+    background-color: #f5f6f709;
+    background-color: #f8dae1;
+}
+
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link{
+    font-size: 15px;
+    transition: all 0.2s ease-in;
+}
+
+.nav-link:hover{
+    color:  #ff3d67;;
+    transition: all 0.2s ease-in
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FONDO DE IMAGEN PANELES */
+
+.Imagen-Panel{
+    width: 100%;
+    height: 500px;
+}
+
+/* H1 Y H3 */
+
+.Paneles-fondo{
+    transform: translateY(-250px);
+    transition: all 0.2s ease;
+}
+
+.Paneles-fondo h1{
+    font-size: 2.5rem;
+    color: rgb(252, 173, 208);
+    font-family: 'Rubik Dirt', cursive;
+    margin: 0px 20px;
+}
+
+.Paneles-fondo h3{
+    font-size: 1.5rem;
+    color: rgb(249, 225, 85);
+    font-family: 'Share Tech Mono', monospace;
+    margin: 5px 10px;
+}
+
+/* QUE SON LOS PANELES TRACKER */
+
+.Sobre-Nosotros{
+    height: 500px;
+    padding: 100px;
+    margin-top: -120px;
+    background-color: #65606023;
+}
+
+.Sobre-Nosotros .Contenedor{
+    margin: auto;
+    padding-top: 1px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.Seccion-texto{
+    font-size: 1.2rem;
+}
+
+.Seccion-Titulo {
+    font-size: 2rem;
+    padding: 10px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: #f8dae1;
+    
+}
+
+/* PREGUNTAS */
+.Preguntas {
+    padding: 40px 40px 60px 40px;
+}
+
+.Preguntas i {
+    font-size: 2rem; 
+    color: #ff3d67; 
+    background-color: #f5f5f5; 
+    padding: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out; 
+}
+
+.Preguntas-titulo {
+    font-size: 20px;
+    margin: 10px 0px;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.Preguntas .columna {
+    background-color: #aee3f7;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    transition: all 0.3s ease-in-out; 
+}
+
+.Preguntas .columna:hover {
+    background-color: #f8a1b4; 
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+}
+
+.Preguntas .columna:hover i {
+    color: rgb(16, 15, 15);
+}
+/* Productos */
+.Producto-imagen {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #f8dae1;
+}
+
+.Producto-info {
+    text-align: center;
+
+}
+
+.Producto-titulo {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Producto-descripcion {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* GRUPO */
+.Grupo{
+    padding: 40px 40px 80px 40px;
+    background-color: #aee3f7;
+}
+
+
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-indicators{
+    margin-bottom: 1px;
+}
+
+.Grupo-imagen{
+    height: 200px;
+    width: 200px; 
+    /* width: 300px;
+    height: 50%; */
+    margin: 10px 10px 20px 10px;
+}
+
+/*Cambia la legra*/
+.Grupo-texto{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    /* font-family: 'Share Tech Mono', monospace; */
+}
+
+.Grupo-info{
+    font-weight: bold;
+    text-align: center;
+}
+
+.Grupo-info p{
+    margin-bottom: 0px;
+}
+
+.Grupo-info .Usuario{
+    font-size: 1.2rem;
+}
+
+.Grupo-info .Cargo{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #656060;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* CONTACTANOS */
+
+.seccion-oscura{
+    color: white;
+    background-color: #f8dae1;
+}
+
+.Contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.Contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(131, 203, 255);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.Contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Contacto .descripcion{
+    color: rgb(6, 6, 6);
+    font-size: 1.2rem;
+}
+
+.Contacto button{
+    color: rgb(16, 16, 16);
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.Contacto button:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.Contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.Contacto button:hover i {
+    color: black;
+}
+
+/* FOOTER */
+footer{
+    min-height: 100px;
+}
+
+.footer-texto{
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family: 'Quicksand', sans-serif;
+    color: #080808;
+}
+
+.iconos-redes-sociales{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 2px;
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0), 0, 0;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i{
+    color: rgb(15, 15, 15);
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos a:hover{
+    background-color: rgb(11, 11, 11);
+    border: 2px solid rgb(172, 205, 255);    
+}
+
+.iconos a:hover i{
+    color: rgb(245, 240, 240);
+
+}
+
+/* FOOTER DERECHOS DE AUTHOR */
+
+.derecho-author{
+    font-size: 15px;
+    color: #333232;
+    padding: 5px;
+}
+
+/* RESPONSIVA PARA BARRA DE NAVEGACIÓN */
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+
+    .navbar-toggler{
+        border: 1px solid #080808;
+    }
+
+    /* IMAGEN RESPONSIVA */
+    .Imagen-Panel{
+        height: auto;
+    }
+}
+
+/* RESPONSIVE INFO PANELES */
+
+@media screen and (max-width: 640px){
+    .Contenedor .Seccion-Titulo{
+        font-size: 1rem;
+    }
+
+    .Contenedor .Seccion-texto{
+        font-size: 15px;
+        margin: 0px -80px;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+    .Sobre-Nosotros{
+      height: 700px;  
+    }
+}
+
+/* RESPONSIVE TITULOS DE LA IMAGEN */
+@media screen and (max-width: 500px) {
+
+    .Paneles-fondo{
+        transform: translateY(-180px);
+        transition: all 0.2s ease;
+    }
+
+    .Paneles-fondo h1{
+        font-size: 15px;
+    }
+
+    .Paneles-fondo h3{
+        font-size: 12px;
+    }
+} 
+
+/* RESPONSIVE TITULOS DE LA IMAGEN  SEGUNDA PARTE*/
+@media screen and (max-width:350px) {
+    .Paneles-fondo{
+        transform: translateY(-120px);
+        transition: all 0.2s ease;
+    }
+
+    .Contenedor .Seccion-Titulo{
+        font-size: 0.8rem;
+        margin-top: -28px;
+    }
+
+    .Contenedor .Seccion-texto{
+        font-size: 12px;
+        margin: 0px -80px;
+    }
+
+    .Sobre-Nosotros{
+        height: 450px;
+        padding: 80px;
+    }
+}
+
+/* TITULO DE PREGUNTAS */
+@media screen and (max-width: 465px){
+    .Preguntas h2{
+        font-size: 1.3rem;
+    }
+}
+
+/* RESPONSIVE CARRUSEL */
+@media screen and (max-width: 612px) {
+    .Grupo-imagen{
+        height: 120px;
+        width: 120px;
+    }
+
+    .Grupo-texto{
+        font-size: 18px;
+    } 
+}
+
+@media screen and (max-width: 375px) {
+    .Grupo-imagen{
+        height: 100px;
+        width: 100px;
+    }
+
+    .Grupo-texto{
+        font-size: 12px;
+    } 
+
+    .Grupo-info .Usuario{
+        font-size: 12px;
+    }
+
+    .Grupo-info .Cargo{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .Grupo-imagen{
+        height: 90px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .Grupo .carousel{
+        max-width: 800px;
+        margin: auto;  
+        padding-bottom: 10px;
+    }
+}
+
+/* Prototipo */
+
+@media  screen and (max-width: 800px) {
+
+    .Prototipo .carousel .carousel-inner .carousel-item .Grupo-imagen{
+        width: 90px;
+        height: 90px;
+    }
+
+    .Prototipo .carousel .carousel-inner .carousel-item .Grupo-texto{
+        font-size: 15px;
+    }
+
+}

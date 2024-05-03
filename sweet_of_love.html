@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sweet of love">
+    <meta name="description" content="Sweet of love">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- ICONOS DE BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- URL CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="Imagenes/Logo.png">
+
+    <!-- Tipo de letra con google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <!-- Titulo de la página -->
+    <title>Sweet of love</title>
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN RESPONSIVA -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler"      type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="Imagenes/Logo.png" width="80" alt="Logo Semilleros">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#Inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Paneles">¿Quienes somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Preguntas">
+                Preguntas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Prototipo">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Equipo">
+                Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">
+                Contactenos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- INICIO -->
+    <section id="Inicio" class="Paneles align-items-stretch">
+        <img class="Imagen-Panel" src="Imagenes/panque.jpg" alt="Fondo de imagen panel">
+        <div class="Paneles-fondo d-flex flex-column justify-content-center align-items-center">
+            <h1 class="text-center justify-content-center">Sweet of love</h1>
+            <h3 class="text-center justify-content-center align-items-center">"ENDULZA TU VIDA CON CADA BOCADO"</h3>
+        </div>
+
+    </section>
+    
+ <!-- SESIÓN DE PREGUNTAS -->
+<section id="Preguntas" class="Preguntas seccion-clara">
+    <h2 class="Seccion-Titulo d-flex justify-content-center align-items-center">SESIÓN DE PREGUNTAS</h2>
+    <div class="container text-center">
+        <div class="row">
+            <!-- CALIDAD -->
+            <div class="columna col-md-6 col-lg-3">
+                <i class="bi bi-heart-fill"></i>
+                <p class="Preguntas-titulo">CALIDAD</p>
+                <p>Garantizamos la calidad de nuestros productos mediante la selección cuidadosa de ingredientes frescos y de alta calidad.</p>
+            </div>
+
+            <!-- GRUPO -->
+            <div class="columna col-md-6 col-lg-3">
+                <i class="bi bi-people-fill"></i>
+                <p class="Preguntas-titulo">GRUPO</p>
+                <p>Jovenes emprendedores apasionados por la innovación gastronómica.</p>
+            </div>
+
+            <!-- UBICACION -->
+            <div class="columna col-md-6 col-lg-3">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p class="Preguntas-titulo">UBICACION</p>
+                <p>Nos encontramos ubicados en el kilómetro 11 de la vía Rivera, en La FET.</p>
+            </div>
+
+            <!-- IMPORTANTE -->
+            <div class="columna col-md-6 col-lg-3">
+                <i class="bi bi-lightbulb-fill"></i>
+                <p class="Preguntas-titulo">IMPORTANTE</p>
+                <p>Nos esforzamos por ofrecer una experiencia deliciosa y satisfactoria en cada producto que servimos.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- PROTOTIPO DE PROYECTO -->
+<section id="Prototipo" class="Prototipo seccion-clara">
+    <h2 class="Seccion-Titulo justify-content-center d-flex">NUESTROS PRODUCTOS</h2>
+
+    <!-- Carrusel-->
+    <div id="Prototipo-carrusel" class="carousel carrusel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Producto 1 -->
+            <div class="carousel-item active">
+                <div class="container">
+                    <img src="Imagenes/crepe.jpg" alt="Crepe de Fresa, Banano y Nutella" class="Producto-imagen">
+                    <p class="Grupo-texto"></p>
+                    <div class="Grupo-info">Crepe de Fresa, Banano y Nutella</h3>
+                        <p class="Producto-descripcion">Un delicioso crepe relleno con rodajas frescas de fresa y banano, cubierto con una generosa capa de Nutella derretida.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="carousel-item">
+                <div class="container">
+                    <img src="Imagenes/pechuga.jpg" alt="Crepe de Pechuga con Champiñones" class="Producto-imagen">
+                    <p class="Grupo-texto"></p>
+                    <div class="Grupo-info">Crepe de Pechuga con Champiñones</h3>
+                        <p class="Producto-descripcion">Un crepe relleno con pechuga de pollo a la parrilla y champiñones salteados, ofreciendo una combinación deliciosa de sabores y texturas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Prototipo-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Prototipo-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</section>
+
+
+    <!-- GRUPO DE TRABAJO -->
+    <section id="Equipo" class="Grupo seccion-clara">
+        <h2 class="Seccion-Titulo justify-content-center d-flex">EQUIPO SWEET OF LOVE</h2>
+    
+        <!-- Carrusel-->
+        <div id="Grupo-carrusel" class="carousel carrusel-dark slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Grupo-carrusel" data-bs-slide-to="0" class="active" aria-current="one" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#Grupo-carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#Grupo-carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               
+            </div>
+            <div class="carousel-inner">
+                <!-- Usuario 1 -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img src="Imagenes/jeshua.jpg" alt="Gerente " class="Grupo-imagen rounded-circle">
+                        <p class="Grupo-texto"> </p>
+                        <div class="Grupo-info">
+                            <p class="Usuario">Jeshua Bejarano Perdomo</p>
+                            <p class="Cargo">Gerente general</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Usuario 2 -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="Imagenes/cristian.jpg" alt="erente del proyecto Panel Girasol" class="Grupo-imagen rounded-circle">
+                        <p class="Grupo-texto"></p>
+                        <div class="Grupo-info">
+                            <p class="Usuario">Cristian Ruiz Sarmiento</p>
+                            <p class="Cargo">Area Comercial</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Usuario 3 -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="Imagenes/deiby.jpg" alt="Area Comercial" class="Grupo-imagen rounded-circle">
+                        <p class="Grupo-texto"></p>
+                        <div class="Grupo-info">
+                            <p class="Usuario">Deiby Martinez Sanchez</p>
+                            <p class="Cargo">Area Comercial</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Usuario 4 -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="Imagenes/laura.jpg" alt="Administradora" class="Grupo-imagen rounded-circle">
+                        <p class="Grupo-texto"></p>
+                        <div class="Grupo-info">
+                            <p class="Usuario">Laura Valentina Prieto</p>
+                            <p class="Cargo">Administradora</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Usuario 5 -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="Imagenes/" alt="Soporte técnico del proyecto Panel Girasol" class="Grupo-imagen rounded-circle">
+                        <p class="Grupo-texto"></p>
+                        <div class="Grupo-info">
+                            <p class="Usuario"></p>
+                            <p class="Cargo"></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Usuario 6 -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="Imagenes/" alt="Comercial del proyecto Panel Girasol" class="Grupo-imagen rounded-circle">
+                        <p class="Grupo-texto"></p>
+                        <div class="Grupo-info">
+                            <p class="Usuario"></p>
+                            <p class="Cargo"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Grupo-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="border-radius: 50%; background-color: black;"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Grupo-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="border-radius: 50%; background-color: black;"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- FOOTER (PIE DE PÁGINA) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <p class="footer-texto text-center">Ubicación: Neiva-Huila Campus-Fet Km 11 via Rivera</p>
+        <div class="iconos d-flex flex-wrap align-items-center justify-content-center"> 
+            </a>
+            <a class="iconos-redes-sociales" href="https://web.facebook.com/profile.php?id=61559448622125" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a class="iconos-redes-sociales" href="https://www.instagram.com/sweet_of_love0/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@sweetoflove_0?_t=8m2mK3fhKzO&_r=1" target="_blank" rel="noopener noreferrer" class="iconos-redes-sociales"><i class="bi bi-tiktok"></i></a>
+            </a>
+          </div>
+          <div class="derecho-author">Creado por Sweet of love (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
